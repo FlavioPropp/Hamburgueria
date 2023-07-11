@@ -1,0 +1,24 @@
+.bgSobre{
+    background-color: #111;
+}
+
+.BoxSobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40%;
+}
+
+.BoxSobre h3{
+    margin: 5%;
+    font-size: 40px;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.BoxSobre p{
+    font-size: 20px;
+    color: #999;
+    font-style: italic;
+}

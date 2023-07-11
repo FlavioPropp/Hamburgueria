@@ -1,0 +1,57 @@
+.TituloCardapio {
+    padding: 5% 0;
+    text-align: center;
+    background-image: url(/public/assets/divisao.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.TituloCardapio h3{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+    opacity: 100%;
+}
+
+.BoxBurguerList{
+    background-image: url(https://media.istockphoto.com/id/1169546307/pt/vetorial/seamless-pattern-burgers-on-black-background-burger-menu-for-packaging-advertisements-menu.jpg?s=170667a&w=0&k=20&c=iWDa-f3ZTOQbovkRsZ8-GIkd6PGbiajS45y7tQaSt3U=);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.BoxBurguerList h4{
+    margin: 20px;
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 8px black;
+    letter-spacing: 5px;
+    background-color: black;
+    width: 100%;
+    opacity: 80%;
+}
+
+.BoxBurguerList dt{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.DescCardapio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: goldenrod;
+    text-shadow: 1px 1px 5px black;
+    font-size: 17;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.DescCardapio p{
+    margin-left: 20px;
+}

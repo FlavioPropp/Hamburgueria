@@ -1,0 +1,37 @@
+footer{
+    background-color: #222;
+    padding-top: 5%;
+}
+
+.BoxFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 15px 200px;;
+}
+
+.ContatoFooter{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ContatoFooter h4{
+    font-size: 30px;
+    margin: 10px 20px;
+}
+
+.ContatoFooter p{
+    margin: 30px auto;
+}
+
+.RedeSocial img{
+    height: 60px;
+    margin: auto 20px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+}

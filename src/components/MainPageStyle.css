@@ -1,0 +1,91 @@
+.BannerMain {
+    background-color: black;
+    background-image: url('/public/assets/banner.jpeg');
+    background-size: cover;
+    background-position-y: center;
+    height: 850px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+span{
+    font-weight: bold;
+}
+
+.PageLink{
+    text-decoration: none;
+    color: goldenrod;
+    padding: 0 10px;
+    transition: 0.2s;
+}
+
+.PageLink:hover {
+    transition: 0.7s;
+    background-color: black;
+    padding: 0 10px;
+    border-radius: 25px;
+}
+
+.BannerMain h1 {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom:0;
+    padding: 0;
+    font-size: 140px;
+}
+
+.BannerMain h2{
+    margin-left: 35px;
+    font-size: 30px;
+}
+.Divisao{
+    background-image: url('/public/assets/divisao.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 80%;
+    height: 250px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+
+.MainPage {
+    margin-top: 8%;
+}
+
+.MainPage h3{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 10%;
+}
+
+.MainPage p{
+    text-align: center;
+    font-size: 20px;
+    margin: auto 10%;
+    line-height: 40px;
+}
+
+.BoxImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BoxImg img {
+    height: 500px;
+    margin: 50px 10px;
+    border: solid 3px black;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.Iframe {
+    width: 100%;
+    height: 300px;
+    border: solid 3px black;
+}

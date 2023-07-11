@@ -1,0 +1,37 @@
+header{
+    background-color: #222;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+.BoxTopo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+ img{
+    width: auto;
+    height: 80px;
+}
+.NavLink {
+    text-decoration: none;
+    color: goldenrod;
+    margin-left: 20px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px chocolate;
+    padding:3px 15px;
+    border-radius: 35px;
+    transition: 0.5s;
+}
+
+.NavLink:hover{
+    background-color: goldenrod;
+    color:#222;
+    text-shadow: 1px 1px 3px black;
+    transition: 1s;
+}
